@@ -1,255 +1,227 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-  height: 100%;
-  background: url(assets/images/bg1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+    font-family: "Lucida Grande";
 }
 
-
-#content {
-  flex: 1 0 auto;
+li {
+    list-style: none;
 }
 
-#footer {
-  flex-shrink: none;
-  bottom: -1%;
-  position: absolute;
-  width: 100%;
-  text-decoration: none;
+a {
+    text-decoration: none;
+}
+
+/* Ketik code Anda di bawah */
+.wrapper {
+    background-image: url(https://prog-8.com/images/html/advanced/top.png);
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+
+.wrapper .container {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    opacity: 0.7;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.wrapper p {
+    margin-bottom: 3px;
+    opacity: 0.7;
+}
+
+.tombol {
+    margin-top: 20px;
 
 }
 
-.pbj {
-  text-decoration: none;
+.btn {
+    margin: 10px;
+    border-radius: 4px;
+    opacity: 0.8;
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+
 }
 
-.button-jenis {
-  margin-top: 15%;
-  display: flex;
-  justify-content: center;
+.btn-d {
+    background-color: #239b76;
 }
 
-.button-jenis2 {
-  margin-top: 130px;
-  display: flex;
-  justify-content: center;
+.btn-f {
+    background-color: #3b5998;
 }
 
-.button-bagian {
-  margin-top: 12%;
-  margin-left: auto;
+.btn-t {
+    background-color: #55acee;
+}
 
+.tombol button:hover {
+    opacity: 1;
+}
+
+/*header*/
+header {
+    background-color: rgba(34, 49, 52, 0.9);
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo-header {
+    float: left;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 124px;
+}
+
+.header-login {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .login {
-  margin-right: 2%;
-  text-decoration: none;
-  color: rgb(46, 45, 45);
-  padding: 4px 10px;
-  background-color: #FFFFFF;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border-radius: 2px;
-  transition: cubic-bezier(0.165, 0.84, 0.44, 1)600ms;
+    padding: 0 20px;
+    line-height: ;
 }
 
-.brand {
-  margin-left: 2%;
+.header-login a {
+    line-height: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    display: block;
 }
 
-.login:hover {
-  color: #FFFFFF;
-  background-color: rgb(31, 30, 30);
-  border-radius: 2px;
-
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
-.button {
-  text-decoration: none;
-  margin-top: 50px;
+.header-login:hover {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
+/*msteri*/
 
-
-.card-body {
-  align-items: center;
-}
-
-.button1 {
-  text-decoration: none;
-  margin: 15px;
-  padding: 30px 68px;
-  color: white;
-  border-radius: 20px;
-  font-size: 25px;
-  border: 3px solid #FFFFFF;
-
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1)800ms;
-
-}
-
-.button1:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 50px;
-  color: grey;
-  transform: scale(1.2);
-}
-
-.button2 {
-  text-decoration: none;
-  margin: 15px;
-  padding: 30px 60px;
-  color: white;
-  border-radius: 20px;
-  font-size: 25px;
-  border: 3px solid #FFFFFF;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1)800ms;
-
-
-}
-
-.button2:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 50px;
-  color: grey;
-  transform: scale(1.2);
-
-}
-
-.button3 {
-  text-decoration: none;
-  margin: 15px;
-  padding: 30px 15px;
-  color: white;
-  border-radius: 20px;
-  font-size: 25px;
-  border: 3px solid #FFFFFF;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1)800ms;
-
-
-}
-
-.button3:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 50px;
-  color: grey;
-  transform: scale(1.2);
-
-}
-
-.button4 {
-  text-decoration: none;
-  margin: 15px;
-  padding: 30px 55px;
-  color: white;
-  border-radius: 20px;
-  font-size: 25px;
-  border: 3px solid #FFFFFF;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1)800ms;
-
-
-}
-
-.button4:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 50px;
-  color: grey;
-  transform: scale(1.2);
-
-}
-
-.button-pns {
-  text-decoration: none;
-  padding: 30px 15px;
-  color: white;
-  border-radius: 20px;
-  font-size: 30px;
-  margin-right: 25%;
-  border: 3px solid #FFFFFF;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1)800ms;
-}
-
-.button-pns:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 50px;
-  color: grey;
-  transform: scale(1.3);
-
-}
-
-.button-umum {
-  text-decoration: none;
-  padding: 25px 32px;
-  color: white;
-  border-radius: 20px;
-  font-size: 40px;
-  border: 3px solid #FFFFFF;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1)800ms;
-}
-
-.button-umum:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 50px;
-  color: grey;
-  transform: scale(1.3);
-
+.konten h2 {
+    padding-top: 60px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    text-align: center;
+    color: #5f5d60;
 }
 
 .konten {
-  margin-bottom: 8%;
+    height: 580px;
+    background-color: #f7f7f7;
+    text-align: center;
+
 }
 
-p {
-  color: #EF0000;
-  margin-bottom: 40px;
+.isi-materi {
+    float: left;
+    width: 25%;
 }
 
+/* Tambahkan CSS untuk lesson-icon */
+.ikon-materi {
+    position: relative;
+}
+
+/* Tambahkan CSS untuk tag <p> di dalam lesson-icon */
+.ikon-materi p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+}
+
+/* Tambahkan CSS untuk txt-contents */
 .text {
-  text-align: center;
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.pesan {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.pesan h2 {
+    margin-top: 60px;
+    font-weight: normal;
+    color: #5f5d60;
+}
+
+.pesan h3 {
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.btn-belajar {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    opacity: 0.8;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
 
 }
 
-:root {
-  --white: #ffff;
+.btn-belajar:hover {
+    background-color: #5dca88;
+    opacity: 1;
 }
 
-.button-masuk {
-  text-align: center;
-  padding: 16px 40px;
-  text-decoration: none;
-  background: transparent;
-  border-radius: 44.5px;
-  color: var(--white);
-  font-size: 150%;
-  margin-top: 20%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border: 2px solid var(--white);
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1)600ms;
+.btn-belajar:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
 }
 
-
-
-.card {
-  width: 100%;
-  border-radius: 20px;
-  margin-top: 30px;
+footer {
+    border-top: 1px solid #eee;
 }
 
-.button-masuk:hover {
-  transform: scale(1.1);
-  color: var(--white);
-  box-shadow: 1px 4px 12px var(--white);
+.logo-f {
+    width: 120px;
+    padding-top: 30px;
+}
+
+.font {
+    color: #b3aeb5;
+    font-size: 12px;
 }
